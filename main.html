@@ -3,47 +3,62 @@
  <head>
   <title>midlov.net </title>
   <style>
-    p{
+    
+    p,a{
       font-size: 20px;
       font-weight: bold;
       font-family:robot;
-    }
+      color:rgb(10, 10, 97);
+      }
     img{
       width:400px;
       height:400px;
     }
+    body {
+      background:url('Images/translucent-image.png');
+      background-position: right;
+    }
+    
   </style>
  </head>
- <body style="background-color:rgb(238, 241, 255); text-align:center">
-
-  <h1 style="color:rgb(10, 10, 97);font-size:50px;"> Топ-5 Инфоцыган 21-го века </h1>
-  <img src="c:\Users\hackerman\Project XXX\Images\byanovskaya.jpg" alt="byanovskaya">
+ <body style="color:rgb(10, 10, 97); text-align:center">
+  <h1 style="font-size:50px;"> Топ-5 Инфоцыган 21-го века </h1> 
+  <picture> 
+   <source media="(max-width: 401px)" srcset="Images\robert.jpg">
+   <source media="(min-width: 401px)" srcset="Images\byanovskaya.jpg">
+   <img src="Images\byanovskaya.jpg" alt="byanovskaya"> 
+  </picture>
   <p> 5 место. Елена Бляновская</p> 
-  <img src="c:\Users\hackerman\Project XXX\Images\robert.jpg" alt="robert">
+  <img src="Images\robert.jpg" alt="robert">
   <p> 4 место. Роберт Бит Койно Саки</p> 
-  <img src="c:\Users\hackerman\Project XXX\Images\transformator.jpg" alt="Транс фор матор">
+  <img src="Images\transformator.jpg" alt="Транс фор матор">
   <p title="Запрещенная в России Организация">3 место. Транс фор матор</p> 
-  <img src="c:\Users\hackerman\Project XXX\Images\biznes molodcy.jpg" alt="biznes molodcy">
+  <img src="Images\biznes molodcy.jpg" alt="biznes molodcy">
   <p> 2 место. Бизнес молодцев</p> 
-  <p> <a href="https://t.me/I101001110011111011111110010" target="_blank" style="color: #000; text-decoration:none;">
-  <img src="c:\Users\hackerman\Project XXX\Images\Igoryaz1.jpg" alt="Igoryaz"></p>
-  <p> <a href="https://t.me/I101001110011111011111110010" target="_blank" style="color: #000; text-decoration:none;"> 1 место. Игоряз Шабутдинов </a> </p>
+  <p> 
+    <a href="https://t.me/I101001110011111011111110010" target="_blank"> 
+    <img src="Images\Igoryaz1.jpg" alt="Igoryaz"> </a> </p>
+  <p> <a href="https://t.me/I101001110011111011111110010" target="_blank" style="text-decoration:none;"> 1 место. Игоряз Шабутдинов </a> </p>
 
-<!-- Это второй вараинт страницы, где хотел упростить длину кода, убрав style вначало и оставив один параграф-->
+  <img srcset="Images\Igoryaz1.jpg 640w, Images\transformator.jpg 960w, Images\biznes molodcy.jpg 1200w"
+  src="Images\robert.jpg"> <!-- Не работает, должны меняться картинки в зависимости от размера экрана-->
+
+
+<!-- Это второй вараинт страницы, который не обновляется-->
   <br> 
   <br> 
   <h1 style="color:rgb(10, 10, 97);font-size:50px;text-align:center"> Топ-5 Инфоцыган 21-го века </h1>
   <b>  <p style="font-size:23px; text-align:center">
   5 место. Елена Бляновская<br> 
-  <img src="c:\Users\hackerman\Project XXX\Images\byanovskaya.jpg" alt="byanovskaya"> <br> 
+  <img src="Images\byanovskaya.jpg" alt="byanovskaya"> <br> 
   4 место. Роберт Сунь-Вынь Йор Саки<br> 
-  <img src="c:\Users\hackerman\Project XXX\Images\robert.jpg" alt="robert" width="400" height="400"><br> 
+  <img src="Images\robert.jpg" alt="robert" width="400" height="400"><br> 
   3 место. Транс фор матор<br> 
-  <img src="c:\Users\hackerman\Project XXX\Images\transformator.jpg" alt="robert" width="400" height="400"><br>
+  <img src="Images\transformator.jpg" alt="robert" width="400" height="400"><br>
   2 место. Бизнес молодцев<br> 
-  <img src="c:\Users\hackerman\Project XXX\Images\biznes molodcy.jpg" alt="robert" width="400" height="400"><br> 
+  <img src="Images\biznes molodcy.jpg" alt="robert" width="400" height="400"><br> 
   1 место. Игоряз Шабутдинов <b> <br> 
-  <img src="c:\Users\hackerman\Project XXX\Images\Igoryaz1.jpg" alt="Igoryaz" width="400" height="400"><br> 
+  <img src="Images/Igoryaz.jpg" alt="Igoryaz" width="400" height="400"><br> 
   <a href="https://t.me/I101001110011111011111110010" style="color: #000;" > Контакты для шикарной жизни </a> </p> 
 
 
